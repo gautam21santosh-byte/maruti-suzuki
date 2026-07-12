@@ -167,7 +167,7 @@ Maruti-Suzuki-Price-Prediction/
 
 **Santosh Gautam**
 
-**Data Analyst | Machine Learning Enthusiast**
+**Aspiring Data Analyst | Machine Learning Enthusiast**
 
 📧 Email: gautam21santosh@gmail.com
 
