@@ -1,118 +1,169 @@
-🚗 Maruti Suzuki On-Road Vehicle Price Prediction using Machine Learning
-📌 Project Overview
+# 🚗 Maruti Suzuki On-Road Vehicle Price Prediction using Machine Learning
 
-This project develops an end-to-end Machine Learning solution to predict the On-Road Price of Maruti Suzuki vehicles using approximately 800,000+ sales records. The project focuses on data preprocessing, feature engineering, exploratory data analysis (EDA), model development, and business insights to support data-driven pricing decisions.
+> **End-to-End Machine Learning Capstone Project | Python | Scikit-learn | Regression | Data Analytics**
 
-🎯 Business Problem
+## 📖 Overview
 
-Accurately estimating the on-road price of a vehicle is essential for dealerships, pricing teams, and customers. Manual pricing is influenced by multiple factors such as vehicle model, fuel type, transmission, discounts, dealer location, and customer preferences.
+Built an end-to-end Machine Learning solution to predict the **On-Road Price** of Maruti Suzuki vehicles using **797,687 real-world sales records**. The project demonstrates the complete data science workflow—from data preprocessing and exploratory data analysis (EDA) to feature engineering, model development, evaluation, and business recommendations.
 
-Goal: Build a predictive model that accurately estimates vehicle prices while identifying the key factors affecting pricing.
+The final model enables accurate vehicle price prediction while identifying the key business factors influencing pricing decisions.
 
-📊 Dataset Information
-Dataset Size: 797,687 Records
-Domain: Automobile Sales
-Target Variable: OnRoadPrice
-Key Features
-FuelType
-Transmission
-ExShowroomPrice
-DiscountApplied
-PaymentMode
-CustomerType
-SatisfactionScore
-BookingToDeliveryDays
-Model
-VariantCode
-Segment
-DealerName
-City
-State
-🛠 Tech Stack
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Jupyter Notebook
-📋 Project Workflow
-1. Data Cleaning
-Handled missing values
-Removed hidden null values
-Removed duplicate records
-Corrected data types
-Standardized categorical values
-2. Exploratory Data Analysis (EDA)
+---
 
-Performed:
+# 🎯 Business Problem
 
-Univariate Analysis
-Bivariate Analysis
-Multivariate Analysis
-Correlation Analysis
-Skewness Analysis
-Outlier Detection
-Distribution Analysis
-3. Feature Engineering
+Vehicle pricing is influenced by several dynamic factors such as vehicle specifications, discounts, fuel type, dealership location, and customer preferences. Manual pricing can lead to inconsistencies and inaccurate estimates.
 
-Created business features including:
+**Objective:** Develop a predictive Machine Learning model that accurately estimates vehicle on-road prices and helps dealerships make data-driven pricing decisions.
 
-PriceDifference
-DiscountPercent
-Year
-Month
-Quarter
-DayOfWeek
-4. Machine Learning Models
+---
 
-Models Compared
+# 📊 Dataset Information
 
-Linear Regression
-Decision Tree Regressor
-Random Forest Regressor
-📈 Model Performance
-Model	Test R²	MAPE
-Linear Regression	0.45	30.38%
-Decision Tree	0.9864	3.83%
-Random Forest	0.9865	3.82%
+| Attribute | Details |
+|----------|----------|
+| Domain | Automobile Sales |
+| Dataset Size | 797,687 Records |
+| Target Variable | OnRoadPrice |
+| Problem Type | Supervised Machine Learning (Regression) |
 
-Best Model: Random Forest Regressor
+---
 
-📊 Evaluation Metrics
-R² Score
-Mean Absolute Error (MAE)
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-Mean Absolute Percentage Error (MAPE)
-💡 Key Business Insights
-Ex-Showroom Price is the strongest driver of vehicle pricing.
-Vehicle Model and Base Variant significantly influence final prices.
-Fuel Type and Transmission contribute to pricing differences.
-Dealer Location impacts regional pricing variations.
-Discount strategies affect the final customer price.
-📌 Business Recommendations
-Use the Random Forest model to improve dealership pricing accuracy.
+# 🛠 Tech Stack
 
-🚀 Future Improvements
-Hyperparameter Optimization
-XGBoost implementation
-Model Deployment using Flask/FastAPI
-Real-time Price Prediction Web Application
-Optimize discount strategies based on vehicle segments.
-Monitor dealer-wise pricing differences for consistency.
-Support pricing decisions using predictive analytics instead of manual estimation.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-📌 Author
+---
 
-Santosh Gautam
+# ⚙️ Project Workflow
 
-Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning
+### 📌 Data Preprocessing
 
-If you found this project helpful, feel free to ⭐ the repository.
+- Handled missing values
+- Cleaned hidden null values
+- Removed duplicate records
+- Standardized categorical variables
+- Corrected data types
+
+---
+
+### 📊 Exploratory Data Analysis
+
+Performed comprehensive analysis including:
+
+- Univariate Analysis
+- Bivariate Analysis
+- Multivariate Analysis
+- Correlation Analysis
+- Missing Value Analysis
+- Skewness Analysis
+- Outlier Detection
+- Distribution Analysis
+
+---
+
+### ⚡ Feature Engineering
+
+Created business-driven features including:
+
+- PriceDifference
+- DiscountPercent
+- Year
+- Month
+- Quarter
+- DayOfWeek
+
+Performed feature selection while preventing target leakage.
+
+---
+
+### 🤖 Machine Learning Models
+
+The following regression algorithms were implemented and compared:
+
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+
+---
+
+# 📈 Model Performance
+
+| Model | Test R² | MAPE |
+|--------|---------:|------:|
+| Linear Regression | 0.45 | 30.38% |
+| Decision Tree | 0.9864 | 3.83% |
+| **Random Forest** | **0.9865** | **3.82%** |
+
+🏆 **Best Performing Model:** Random Forest Regressor
+
+---
+
+# 📌 Key Business Insights
+
+- Vehicle Model significantly impacts final pricing.
+- Base Variant Price is a major pricing driver.
+- Fuel Type and Transmission influence vehicle valuation.
+- Dealer location contributes to regional price variation.
+- Discount strategy directly affects the final customer price.
+
+---
+
+# 💼 Business Recommendations
+
+- Deploy the Random Forest model to automate vehicle pricing.
+- Optimize dealership discount strategies using predictive analytics.
+- Standardize regional pricing by monitoring dealer-wise variations.
+- Leverage machine learning for faster, data-driven pricing decisions.
+
+
+```
+
+---
+
+# 🚀 Future Enhancements
+
+- Hyperparameter Optimization
+- XGBoost & LightGBM Models
+- Model Deployment using Streamlit
+- REST API Integration
+- Real-Time Price Prediction Dashboard
+
+---
+
+# 📚 Skills Demonstrated
+
+- Data Cleaning
+- Data Preprocessing
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Regression Modeling
+- Machine Learning
+- Model Evaluation
+- Data Visualization
+- Business Analytics
+
+---
+
+# 👨‍💻 Author
+
+**Santosh Gautam**
+
+**Data Analyst | Machine Learning Enthusiast**
 
 📧 Email: gautam21santosh@gmail.com
 
 🔗 LinkedIn: https://www.linkedin.com/in/gautam21santosh
 
 💻 GitHub: https://github.com/gautam21santosh-byte
+
+---
+
+### ⭐ If you found this project useful, consider giving it a Star!
