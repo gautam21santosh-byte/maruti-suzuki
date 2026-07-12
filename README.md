@@ -122,6 +122,17 @@ The following regression algorithms were implemented and compared:
 - Standardize regional pricing by monitoring dealer-wise variations.
 - Leverage machine learning for faster, data-driven pricing decisions.
 
+---
+
+# 📂 Repository Structure
+
+```
+Maruti-Suzuki-Price-Prediction/
+
+├── Notebook/
+├── Images/
+├── Models comparison/
+├── README.md
 
 ```
 
